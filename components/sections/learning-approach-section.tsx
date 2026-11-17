@@ -110,7 +110,10 @@ export function LearningApproachSection({ onOpenEnquiry }: LearningApproachSecti
                           src={pillar.image}
                           alt={pillar.title}
                           fill
-                          className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                          className={cn(
+                            "object-cover transition-transform duration-700 ease-out group-hover:scale-110",
+                            pillar.objectPosition || "object-center"
+                          )}
                         />
                       </div>
                     </div>

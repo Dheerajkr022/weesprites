@@ -51,9 +51,7 @@ export const siteConfig: SiteConfig = {
     country: "India",
   },
   socials: {
-    instagram: "https://instagram.com/weespritespreschool",
-    facebook: "https://facebook.com/weespritespreschool",
-    youtube: "https://youtube.com/@weespritespreschool",
+    instagram: "https://instagram.com/weespritesvikaspuri",
   },
   navigation: [
     { label: "Home", href: "/" },

@@ -24,6 +24,7 @@ import { EnquiryModal } from "@/components/ui/enquiry-modal";
 import { CtaButton } from "@/components/ui/cta-button";
 import { Reveal } from "@/components/ui/reveal";
 import { FloatingBlob } from "@/components/ui/floating-blob";
+import { cn } from "@/lib/utils";
 
 export interface DetailedProgram {
   id: string;
@@ -33,6 +34,7 @@ export interface DetailedProgram {
   timings: string;
   ratio: string;
   image: string;
+  objectPosition?: string;
   accentBg: "lilac" | "yellow";
   overview: string;
   milestones: string[];
@@ -116,7 +118,8 @@ export function ProgramsView() {
       ageRange: "3–4 Years",
       timings: "09:00 AM – 12:00 PM",
       ratio: "1 : 10 (4 Teachers for 40 Children)",
-      image: "/schoolimages/boy-phonics-aeroplane-craft.jpg",
+      image: "/schoolimages/preschool-uniform-thumbs-up.jpg",
+      objectPosition: "object-top",
       accentBg: "lilac",
       overview:
         "Our Nursery program introduces early literacy and numeracy through play-based immersion. Children develop phonetic awareness, number logic, and inquisitive scientific habits that lay the bedrock for lifelong learning.",
@@ -145,7 +148,8 @@ export function ProgramsView() {
       ageRange: "4–5 Years",
       timings: "09:00 AM – 12:00 PM",
       ratio: "1 : 10 (4 Teachers for 40 Children)",
-      image: "/schoolimages/toddler-lilac-owl-craft.jpg",
+      image: "/schoolimages/commando-student-puppet.jpg",
+      objectPosition: "object-top",
       accentBg: "yellow",
       overview:
         "LKG balances play-way joy with structured cognitive building blocks. Children progress from letter sounds to reading two- and three-letter words, writing sentences, and understanding everyday mathematics.",
@@ -417,7 +421,10 @@ export function ProgramsView() {
                               src={prog.image}
                               alt={prog.name}
                               fill
-                              className="object-cover transition-transform duration-700 hover:scale-105"
+                              className={cn(
+                                "object-cover transition-transform duration-700 hover:scale-105",
+                                prog.objectPosition || "object-center"
+                              )}
                             />
                             <div className="absolute top-4 left-4 px-3.5 py-1.5 rounded-full bg-white/95 backdrop-blur-sm text-brand-violet font-extrabold text-xs shadow-sm">
                               {prog.ageRange}

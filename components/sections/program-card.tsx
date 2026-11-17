@@ -30,7 +30,10 @@ export function ProgramCard({ program, onSelect }: ProgramCardProps) {
           src={program.image}
           alt={program.name}
           fill
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-108"
+          className={cn(
+            "object-cover transition-transform duration-700 ease-out group-hover:scale-108",
+            program.objectPosition || "object-center"
+          )}
         />
       </div>
 

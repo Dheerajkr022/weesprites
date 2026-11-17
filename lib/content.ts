@@ -4,6 +4,7 @@ export interface ProgramItem {
   ageRange: string; // client confirmation required
   description: string;
   image: string;
+  objectPosition?: string;
   accentBg: "lilac" | "yellow";
 }
 
@@ -11,6 +12,7 @@ export interface LearningPillar {
   title: string;
   description: string;
   image: string;
+  objectPosition?: string;
 }
 
 export interface FacilityItem {
@@ -199,7 +201,8 @@ export const programsContent: {
       name: "Nursery",
       ageRange: "3–4 Years",
       description: "Early phonics, number sense, tactile crafting, and creative curiosity.",
-      image: "/schoolimages/boy-phonics-aeroplane-craft.jpg",
+      image: "/schoolimages/preschool-uniform-thumbs-up.jpg",
+      objectPosition: "object-top",
       accentBg: "lilac",
     },
     {
@@ -207,7 +210,8 @@ export const programsContent: {
       name: "LKG",
       ageRange: "4–5 Years",
       description: "Structured discovery, early literacy, cognitive games, and friendship building.",
-      image: "/schoolimages/toddler-lilac-owl-craft.jpg",
+      image: "/schoolimages/commando-student-puppet.jpg",
+      objectPosition: "object-top",
       accentBg: "yellow",
     },
     {
@@ -255,7 +259,8 @@ export const learningApproachContent = {
     {
       title: "Social Development",
       description: "Collaborative circle time, group games, and sharing circles fostering kindness and emotional maturity.",
-      image: "/schoolimages/boy-slide-play.jpg",
+      image: "/schoolimages/social-development-santa.jpg",
+      objectPosition: "object-[center_30%]",
     },
   ],
 };

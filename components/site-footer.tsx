@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { MapPin, Phone, Mail, Instagram, Facebook, Youtube, Heart } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Heart } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 import { programsContent } from "@/lib/content";
 
@@ -36,24 +36,6 @@ export function SiteFooter() {
                 className="w-9 h-9 rounded-full bg-white/10 hover:bg-brand-yellow hover:text-text-primary flex items-center justify-center transition-colors"
               >
                 <Instagram className="w-4 h-4" />
-              </a>
-              <a
-                href={siteConfig.socials.facebook}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Facebook"
-                className="w-9 h-9 rounded-full bg-white/10 hover:bg-brand-yellow hover:text-text-primary flex items-center justify-center transition-colors"
-              >
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a
-                href={siteConfig.socials.youtube}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="YouTube"
-                className="w-9 h-9 rounded-full bg-white/10 hover:bg-brand-yellow hover:text-text-primary flex items-center justify-center transition-colors"
-              >
-                <Youtube className="w-4 h-4" />
               </a>
             </div>
           </div>
