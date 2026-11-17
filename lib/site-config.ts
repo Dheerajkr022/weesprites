@@ -40,8 +40,8 @@ export const siteConfig: SiteConfig = {
   name: "WEE SPRITES",
   descriptor: "Preschool & Day Care",
   tagline: "We care, we share, for the future, we prepare",
-  phone: "+91 95409 27000",
-  email: "weesprites.vaspuri@gmail.com",
+  phone: "+91 98915 29994",
+  email: "weespritespreschool@gmail.com",
   address: {
     line1: "A-98 Shankar Garden",
     line2: "Vikaspuri",

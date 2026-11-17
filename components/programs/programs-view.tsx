@@ -56,7 +56,7 @@ export function ProgramsView() {
       name: "Toddler Group",
       tagline: "Tender Beginnings & Sensory Discovery",
       ageRange: "18 Months+",
-      timings: "09:00 AM – 11:30 AM",
+      timings: "09:00 AM – 12:00 PM",
       ratio: "1 : 10 (4 Teachers for 40 Children)",
       image: "/schoolimages/two-sisters-ball-pool.jpg",
       accentBg: "lilac",
@@ -230,12 +230,12 @@ export function ProgramsView() {
       name: "Day Care",
       tagline: "Safe, Caring & Joyful Daylong Sanctuary",
       ageRange: "12 Months+",
-      timings: "8:00 AM – 8:00 PM",
+      timings: "7:30 AM – 8:00 PM",
       ratio: "1 : 10 (4 Teachers for 40 Children)",
       image: "/schoolimages/daycare-baby-ballpool.jpg",
       accentBg: "lilac",
       overview:
-        "A peaceful, stimulating home-away-from-home for children aged 12 months and above. Operating from 8:00 AM to 8:00 PM, our Day Care provides warm care, nutritious meals, hygienic rest zones, and age-appropriate sensory play.",
+        "A peaceful, stimulating home-away-from-home for children aged 12 months and above. Operating from 7:30 AM to 8:00 PM, our Day Care provides warm care, nutritious meals, hygienic rest zones, and age-appropriate sensory play.",
       milestones: [
         "Healthy daily sleep, dining, and activity schedules",
         "Sensory motor exploration and language stimulation",
@@ -249,7 +249,7 @@ export function ProgramsView() {
         "Regular hygiene routines and personalized attention",
       ],
       specialHighlights: [
-        "Extended timings: 8:00 AM to 8:00 PM for working parents",
+        "Extended timings: 7:30 AM to 8:00 PM for working parents",
         "Strict hygiene, child-proof fixtures, and 24/7 CCTV surveillance",
         "Trained pediatric caregivers and background-verified staff",
       ],

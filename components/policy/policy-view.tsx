@@ -61,7 +61,7 @@ export function PolicyView() {
           </p>
           <ul className="list-disc pl-5 space-y-1.5">
             <li><strong>Regular Preschool (Nursery, LKG, UKG):</strong> 9:00 AM – 12:00 PM (Monday through Friday).</li>
-            <li><strong>Day Care:</strong> 8:00 AM – 8:00 PM (Flexible full-day and extended care).</li>
+            <li><strong>Day Care:</strong> 7:30 AM – 8:00 PM (Flexible full-day and extended care).</li>
             <li>Parents are requested to ensure children arrive between 8:45 AM and 9:00 AM to participate in morning circle time and musical welcome rhymes.</li>
             <li>In the event of an unavoidable late arrival or early pickup, advance notification to the administration desk via SMS or phone call is mandatory.</li>
           </ul>

@@ -98,7 +98,7 @@ export function ContactView() {
       icon: <Mail className="w-6 h-6 text-emerald-600" />,
       title: "Email Helplines",
       primary: siteConfig.email,
-      secondary: "franchise@weesprites.com",
+      secondary: "Admissions & General Enquiries",
       actionText: "Send an Email",
       actionHref: `mailto:${siteConfig.email}`,
     },

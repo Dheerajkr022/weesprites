@@ -64,7 +64,7 @@ export function SitemapView() {
         { name: "LKG (4–5 Years)", href: "/programs#lkg", desc: "Early reading, structured handwriting, and scientific inquiry." },
         { name: "UKG (5–6 Years)", href: "/programs#ukg", desc: "Formal primary school transition readiness and leadership projects." },
         { name: "Evening Program (2.5–12 Years)", href: "/programs#evening", desc: "Creative arts, supervised homework, and guided hobby clubs." },
-        { name: "Day Care (12 Months+)", href: "/programs#day-care", desc: "Safe, nurturing daylong sanctuary operating 8:00 AM to 8:00 PM." },
+        { name: "Day Care (12 Months+)", href: "/programs#day-care", desc: "Safe, nurturing daylong sanctuary operating 7:30 AM to 8:00 PM." },
       ],
     },
     {
