@@ -32,21 +32,18 @@ function renderFaqAnswer(answer: string) {
 
         // Check for phone number and instagram
         let content: React.ReactNode = p;
-        if (p.includes("98915 29994") || p.includes("9891529994") || p.includes("9582019000")) {
-          const matchedNum = p.includes("98915 29994")
-            ? "98915 29994"
-            : p.includes("9891529994")
-            ? "9891529994"
-            : "9582019000";
-          const parts = p.split(matchedNum);
+        const phoneMatches = ["+91 95409 27000", "+91 9540927000", "95409 27000", "9540927000", "98915 29994", "9582019000"];
+        const matchedPhone = phoneMatches.find((num) => p.includes(num));
+        if (matchedPhone) {
+          const parts = p.split(matchedPhone);
           content = (
             <>
               {parts[0]}
               <a
-                href="tel:+919891529994"
+                href="tel:+919540927000"
                 className="font-bold text-brand-violet hover:underline inline-flex items-center gap-1"
               >
-                98915 29994
+                +91 95409 27000
               </a>
               {parts[1]}
             </>

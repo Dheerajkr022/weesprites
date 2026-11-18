@@ -577,7 +577,7 @@ export const faqContent = {
     {
       question: "How can I enquire about admission?",
       answer:
-        "You can contact our school office directly at 98915 29994 or visit WEE SPRITES at:\n\nA-98, Shankar Garden, Vikaspuri, New Delhi – 110018.\n\nOur team will be happy to guide you through the admission process, explain the programmes and help you schedule a preschool visit.",
+        "You can contact our school office directly at +91 95409 27000 or visit WEE SPRITES at:\n\nA-98, Shankar Garden, Vikaspuri, New Delhi – 110018.\n\nOur team will be happy to guide you through the admission process, explain the programmes and help you schedule a preschool visit.",
       category: "admissions" as const,
     },
     {
